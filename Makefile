@@ -9,4 +9,4 @@ deps:
 	pip install -Ur requirements.txt
 
 deploy-stage:
-	gcloud app deploy app.yaml --project staging-connectaw -q --no-promote -v ${ver}
+	gcloud app deploy app.yaml --project ${project_name} -q --no-promote -v ${ver}
