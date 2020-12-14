@@ -6,7 +6,7 @@
 
 `python main.py` (make sure you have python 3 version as default or create python 3 env)
 
-## Run using `make`
+## Run using Make
 
 `make start`
 
